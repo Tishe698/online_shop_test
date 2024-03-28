@@ -1,0 +1,36 @@
+.prev, .next {
+    top: 109%;
+    color: rgb(21, 81, 229);
+    background: rgb(242, 246, 255);
+    width: 38px;
+    height: 64px;
+    font-size: 24px;
+}
+.slide-number {
+    display: none;
+}
+.thumbnails {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    overflow: scroll;
+    justify-content: center;
+
+}
+.prev, .next {
+padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev:hover, .next:hover {
+    background-color: rgb(251 255 251);
+}
+.carousel-container {
+    width: 400px;
+}
+@media only screen and (max-width: 400px) {
+    .thumbnail {
+
+    }
+}

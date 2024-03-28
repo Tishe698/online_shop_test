@@ -1,0 +1,279 @@
+/* header.css */
+@font-face {
+    font-family: 'gothampro';
+    src: url('../fonts/gothampro/gothampro.ttf') format('truetype');
+}
+
+a {
+    cursor: pointer;
+}
+
+Button {
+    cursor: pointer;
+    border: 0;
+    background: white;
+}
+
+.MuiButton-root {
+    text-transform: none !important; /* переопределение text-transform */
+    min-width: auto !important; /* переопределение min-width */
+}
+
+.alarm_active {
+    fill: rgba(21, 81, 229, 1.00);
+    stroke-width: 0.1px;
+    font-size: 24px;
+
+}
+
+.alarm_deactive {
+    font-size: 24px;
+}
+
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+    font-size: 24px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'gothampro', Arial, sans-serif; /* Используйте 'gothampro' в качестве основного шрифта, откатывайтесь на Arial, а затем на общий sans-serif */
+}
+
+/*************************************** first companion header *****************************************/
+.header {
+    height: 200px;
+    width: 1585px;
+    height: 136px;
+
+}
+
+.logo {
+    width: 144px;
+    height: 28px;
+    margin-right: 24px;
+}
+
+button.menu-button.MuiButton-root,
+button.menu-button.MuiButton-root:hover,
+button.menu-button.MuiButton-root:focus,
+button.menu-button.MuiButton-root:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(21, 81, 229);
+    border: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 128px;
+    margin-right: 24px;
+}
+
+.menu-button p {
+    margin-left: 8px;
+    padding-top: 2px;
+}
+
+.menu-button:active {
+    transform: none;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5); /* Тень для эффекта погружения */
+}
+
+.menu_button_img {
+    width: 24px;
+    height: 24px;
+    padding: 0px;
+    pointer-events: none; /* Добавленное свойство */
+}
+
+.search-container {
+    position: relative;
+    margin-right: 24px;
+}
+
+.first-companent_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    width: 1585px;
+    padding: 12px 24px 12px 24px;
+}
+
+.search-input {
+    width: 730px;
+    height: 48px;
+    border: 1px solid rgb(225, 229, 235);
+    border-radius: 8px;
+    padding: 0px 12px 0px 16px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    cursor: pointer;
+    padding-right: 12px;
+}
+
+.clear-icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    cursor: pointer;
+    padding-right: 12px;
+}
+
+
+
+.search-input::placeholder {
+    font-family: 'gothampro', Arial, sans-serif; /* Используйте 'gothampro' или другой шрифт */
+    color: rgb(5, 13, 35);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.vertical_line {
+    border: 1px solid rgb(226, 228, 240); /* Стиль вертикальной черты */
+    height: 48px; /* Высота черты */
+    margin-left: 10px; /* Отступ слева */
+    margin-right: 10px; /* Отступ справа */
+}
+
+
+.my-button:hover {
+    background: rgb(242, 246, 255);
+}
+
+.avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+.avatar{
+    margin-right: 24px;
+}
+.avatar_name {
+    font-size: 14px;
+}
+
+.down_arrow {
+    width: 24px;
+    height: 24px;
+}
+
+
+/*************************************** end first companion header *****************************************/
+
+
+/*************************************** second companion header *****************************************/
+
+.bottom_nav {
+    padding: 12px 24px 12px 24px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(226, 228, 240);
+    border-top: 1px solid rgb(226, 228, 240);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav_link li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav_link li a {
+    text-decoration: none;
+    color: black;
+}
+
+.two_nav {
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.button_manager {
+    border-radius: 4px;
+    background: rgb(242, 246, 255);
+    width: 159px;
+    height: 32px;
+    border: 0;
+    padding: 8px 12px 8px 12px;
+    color: rgb(21, 81, 229);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_action {
+    border-radius: 4px;
+    background: white;
+    width: 79px;
+    height: 16px;
+    border: 0;
+    padding: 8px 12px 8px 12px;
+    color: rgb(21, 81, 229);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gotham Pro;
+}
+
+.blog_button {
+    border-radius: 4px;
+    background: white;
+    width: 79px;
+    height: 16px;
+    border: 0;
+    padding: 8px 12px 8px 12px;
+    color: rgb(21, 81, 229);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Gotham Pro;
+}
+
+.manager_icon {
+    width: 24px;
+    height: 24px;
+}
+
+.percentage_icon {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+

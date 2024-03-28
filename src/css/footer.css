@@ -1,0 +1,150 @@
+footer {
+    padding: 16px 24px 16px 24px;
+    width: 1585px;
+}
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы у списка */
+}
+.content_footer h4 {
+    margin-bottom: 24px; /* Добавляем отступ внизу h4 */
+}
+a {
+    color: rgb(5, 13, 35);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    
+}
+
+.top_footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(226, 228, 240);
+    border-bottom: 1px solid rgb(226, 228, 240);
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.support_contacts h4{
+    color: rgb(5, 13, 35);
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.support_contacts p{
+    color: rgb(119, 130, 158);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.logo_footer_content{
+    width: 205.71px;
+    height: 40px;
+}
+.footer_link{
+    gap: 32px;
+}
+.footer_link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+gap: 32px;
+}
+
+.footer_link a{
+    color: rgb(7, 20, 53);
+    font-size: 16px;
+    font-weight: 700;
+}
+.button_idea_footer{
+    width: 179px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    background: rgb(242, 246, 255);
+}
+.content_footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgb(226, 228, 240);
+    margin-bottom: 48px;
+
+}
+
+.female ul{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.male ul{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kids ul{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.type_of_sport ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.down_footer img{
+    width: 24px;
+    height: 24px;
+}
+.down_footer ul{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+}
+.down_footer a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 16px;
+    color: rgb(130, 142, 173);
+    font-size: 12px;
+    width: 198px;
+}
+
+.security_policy{
+    margin-top: 32px;
+}
+.security_policy p{
+    color: rgb(130, 142, 173);
+    font-size: 12px;
+    text-align: center;
+}
+
+.end_footer{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.end_footer h3{
+    color: rgb(143, 155, 179);
+    font-size: 14px;
+    margin-bottom: 48px;
+}
+
+.end_footer img{
+    width: 123.43px;
+    height: 24px;
+}

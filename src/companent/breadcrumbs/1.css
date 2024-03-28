@@ -1,0 +1,24 @@
+/* Устанавливаем стили для текста в хлебных крошках */
+.breadcrumb-text {
+    color: rgb(130, 142, 173);
+    font-family: Gotham;
+    font-size: 12px;
+}
+
+/* Устанавливаем стили для ссылок в хлебных крошках */
+.breadcrumb-link {
+    text-decoration: none !important; /* Убираем подчеркивание по умолчанию */
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MuiBreadcrumbs-separator {
+    font-size: 12px; /* Устанавливаем желаемый размер для слешей */
+    color: rgb(130, 142, 173);
+
+}
+/* Стили для ссылок в хлебных крошках при наведении */
+.breadcrumb-link:hover {
+    text-decoration: underline !important; /* Подчеркиваем ссылку при наведении */
+}

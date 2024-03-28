@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './header/header'; // Путь к файлу Header.js
+import Content from './content/content';
+import Footer from "./footer/footer"; // Путь к файлу Content.js
+import '../src/css/index.css'
+const Container = () => {
+    const [showPriceInCharacteristics, setShowPriceInCharacteristics] = useState(false);
+    const [totalCartPrice, setTotalCartPrice] = useState(0);
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    return (
+        <div className="Container">
+            <Header showPriceInCharacteristics={showPriceInCharacteristics} totalCartPrice={totalCartPrice} />
+            <Content setShowPriceInCharacteristics={setShowPriceInCharacteristics} setTotalCartPrice={setTotalCartPrice} />
+            <Footer/>
+        </div>
+    );
+};
 
-export default App;
+export default Container;
+

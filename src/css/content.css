@@ -1,0 +1,209 @@
+*{
+    font-family: 'gothampro', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.box_paramet_product {
+    display: flex;
+    max-width: 1104px;
+    width: 100%;
+
+}
+.content{
+    padding: 32px 24px 32px 24px;
+    width: 100%;
+    max-width: 1680px;
+}
+.content h1{
+    font-size: 32px;
+}
+.price_for_sale_block{
+    display: flex;
+}
+.no_sale p{
+    color: rgb(255, 61, 113);
+    font-size: 14px;
+    line-height: 16px;
+}
+.sale_price{
+    display: flex;
+    height: 50px;
+}
+.sale_price p{
+    color: rgb(7, 20, 53);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0;
+
+}
+
+.procent_sale{
+    width: 53px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 61, 113);
+    border-radius: 4px;
+    margin-left: 24px   ;
+}
+.procent_sale p{
+    color: white;
+    font-size: 16px;
+}
+.product_box{
+    display: flex;
+    gap: 48px;
+}
+.pack_box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.quantity{
+    border-radius: 8px;
+    background: rgb(242, 245, 249);
+    width: 111px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity p{
+    font-size: 14px;
+    color: rgb(130, 142, 173);
+    font-weight: bold;
+}
+.pack_order{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pack_order p{
+    color: rgb(7, 20, 53);
+    font-size: 14px;
+}
+.line_bottom_price{
+    border: 1px solid rgb(226, 228, 240);
+    width: 372px;
+    margin-top: 33px; /* верхний отступ */
+    margin-bottom: 33px; /* нижний отступ */
+}
+.three_param_delivery{
+    display: flex;
+    gap: 16px;
+}
+.tomorrow{
+    width: 113.33px;
+    height: 40px;
+}
+.tomorrow p:first-child {
+    color: rgb(7, 20, 53);
+    font-size: 14px;
+}
+
+.tomorrow p:last-child {
+    color: rgb(130, 142, 173);
+    font-size: 12px;
+}
+
+.Quantity{
+    width: 113.33px;
+}
+.Quantity p:first-child {
+    color: rgb(7, 20, 53);
+    font-size: 14px;
+    font-weight: bold;
+}
+.Quantity p:last-child {
+    color: rgb(130, 142, 173);
+    font-size: 12px;
+}
+.Quantity2{
+    width: 113.33px;
+    height: 40px;
+}
+.Quantity2 p:first-child {
+    color: rgb(7, 20, 53);
+    font-size: 14px;
+    font-weight: bold;
+}
+.Quantity2 p:last-child {
+    color: rgb(130, 142, 173);
+    font-size: 12px;
+
+}
+.selection_box{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 32px;
+}
+.basket_like_block{
+    display: flex;
+    gap: 16px;
+}
+
+.vertical_line_charac_product{
+    width: 1px; /* Ширина линии */
+    background-color: #ccc; /* Цвет линии */
+    margin-left: 48px;
+    margin-right: 48px;
+}
+.boxs11{
+    width: 1073px;
+}
+.characteristics_product{
+    width: 636px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.characteristics_product h3{
+    margin-bottom: 32px;
+}
+.blocks_characteristics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Пространство между блоками */
+    grid-column-gap: 100px;
+}
+
+
+.characteristic_block {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.characteristic_block span:first-child {
+    color:rgb(7, 20, 53);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.characteristic_block span:last-child {
+    color: rgb(130, 142, 173); /* Например, задаем синий цвет для последнего span */
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.description h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.description p {
+    color: rgb(7, 20, 53);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 0;
+}
