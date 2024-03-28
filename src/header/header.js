@@ -7,7 +7,6 @@ import avatar from '../img/header/Avatar.png';
 import logo from '../img/header/logo.png';
 import menu_button_img from '../img/header/button_menu.png';
 import icon_manag from '../img/header/manag_icon.png';
-import down_arrow from '../img/header/ic_arrow_down.png';
 import * as MUI from "@mui/material";
 import Checkbox from '@mui/material/Checkbox';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';

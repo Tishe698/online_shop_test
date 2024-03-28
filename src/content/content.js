@@ -3,10 +3,11 @@ import ActiveLastBreadcrumb from '../companent/breadcrumbs/breadcrumbs';
 import '../css/content.css';
 import * as MUI from '@mui/material';
 import MyCarousel from "../companent/Carousel/Carousel";
-import Counter_input from "../companent/counter_number/counter_imput";
+import CounterInput from "../companent/counter_number/counter_imput";
 import Checkbox from '@mui/material/Checkbox';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
+
 
 const label = {inputProps: {'aria-label': 'Checkbox demo'}}
 const {Switch, Button} = MUI;
@@ -37,7 +38,6 @@ const Content = ({setShowPriceInCharacteristics, setTotalCartPrice}) => {
         setTotalCartPrice(prevTotal => prevTotal + priceDiscount); // Update total cart price
     };
 
-    const totalCartPrice = cartItems.reduce((total, item) => total + item.price, 0);
 
     return (
         <div className="content">
@@ -86,7 +86,7 @@ const Content = ({setShowPriceInCharacteristics, setTotalCartPrice}) => {
                                 </div>
                             </div>
                             <div className="selection_box">
-                                <Counter_input value={quantity} onChange={(value) => setQuantity(value)}/>
+                                <CounterInput value={quantity} onChange={(value) => setQuantity(value)}/>
                                 <div className="basket_like_block">
                                     <Button style={{
                                         backgroundColor: 'rgb(21, 81, 229)',

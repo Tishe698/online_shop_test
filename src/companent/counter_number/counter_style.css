@@ -48,4 +48,9 @@
     font-size: 14px;
     pointer-events: none;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
