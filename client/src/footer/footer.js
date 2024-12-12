@@ -26,13 +26,13 @@ const Footer = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a href="/">Вакансии</a>
+                                <a href="/client/public">Вакансии</a>
                             </li>
                             <li>
-                                <a href="/">Блог</a>
+                                <a href="/client/public">Блог</a>
                             </li>
                             <li>
-                                <a href="/">Акции</a>
+                                <a href="/client/public">Акции</a>
                             </li>
                             <li>
                                 <Button style={{
@@ -55,11 +55,11 @@ const Footer = () => {
                     <h4>Женщинам</h4>
                     <nav>
                         <ul>
-                            <li><a href="/">Одежда</a></li>
-                            <li><a href="/">Обувь</a></li>
-                            <li><a href="/">Аксессуары</a></li>
-                            <li><a href="/">Белье</a></li>
-                            <li><a href="/">Bra fitting</a></li>
+                            <li><a href="/client/public">Одежда</a></li>
+                            <li><a href="/client/public">Обувь</a></li>
+                            <li><a href="/client/public">Аксессуары</a></li>
+                            <li><a href="/client/public">Белье</a></li>
+                            <li><a href="/client/public">Bra fitting</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -67,10 +67,10 @@ const Footer = () => {
                     <h4>Мужчинам</h4>
                     <nav>
                         <ul>
-                            <li><a href="/">Одежда</a></li>
-                            <li><a href="/">Обувь</a></li>
-                            <li><a href="/">Аксессуары</a></li>
-                            <li><a href="/">Белье</a></li>
+                            <li><a href="/client/public">Одежда</a></li>
+                            <li><a href="/client/public">Обувь</a></li>
+                            <li><a href="/client/public">Аксессуары</a></li>
+                            <li><a href="/client/public">Белье</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -78,12 +78,12 @@ const Footer = () => {
                     <h4>Детям</h4>
                     <nav>
                         <ul>
-                            <li><a href="/">Одежда</a></li>
-                            <li><a href="/">Обувь</a></li>
-                            <li><a href="/">Аксессуары</a></li>
-                            <li><a href="/">Белье</a></li>
-                            <li><a href="/">Игрушки</a></li>
-                            <li><a href="/">Малыши</a></li>
+                            <li><a href="/client/public">Одежда</a></li>
+                            <li><a href="/client/public">Обувь</a></li>
+                            <li><a href="/client/public">Аксессуары</a></li>
+                            <li><a href="/client/public">Белье</a></li>
+                            <li><a href="/client/public">Игрушки</a></li>
+                            <li><a href="/client/public">Малыши</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -91,10 +91,10 @@ const Footer = () => {
                     <h4>Велоспорт</h4>
                     <nav>
                         <ul>
-                            <li><a href="/">Туризм</a></li>
-                            <li><a href="/">Тренажеры и фитнес</a></li>
-                            <li><a href="/">Командные виды спорта</a></li>
-                            <li><a href="/">Самокаты</a></li>
+                            <li><a href="/client/public">Туризм</a></li>
+                            <li><a href="/client/public">Тренажеры и фитнес</a></li>
+                            <li><a href="/client/public">Командные виды спорта</a></li>
+                            <li><a href="/client/public">Самокаты</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -102,12 +102,12 @@ const Footer = () => {
             <div className="down_footer">
                 <nav>
                     <ul>
-                        <li><a href="/"><img src={pdf} alt="pdf"/> PDF презентация</a></li>
-                        <li><a href="/"><img src={video} alt="видео интсрукция"/> Видео инструкция</a></li>
-                        <li><a href="/"><img src={info} alt="FAQ"/> FAQ</a></li>
-                        <li><a href="/"><img src={youtube} alt="Youtube"/> Мы на YouTube</a></li>
-                        <li><a href="/">Политика конфиденциальности</a></li>
-                        <li><a href="/">Лицензионное соглашение</a></li>
+                        <li><a href="/client/public"><img src={pdf} alt="pdf"/> PDF презентация</a></li>
+                        <li><a href="/client/public"><img src={video} alt="видео интсрукция"/> Видео инструкция</a></li>
+                        <li><a href="/client/public"><img src={info} alt="FAQ"/> FAQ</a></li>
+                        <li><a href="/client/public"><img src={youtube} alt="Youtube"/> Мы на YouTube</a></li>
+                        <li><a href="/client/public">Политика конфиденциальности</a></li>
+                        <li><a href="/client/public">Лицензионное соглашение</a></li>
                     </ul>
                 </nav>
             </div>

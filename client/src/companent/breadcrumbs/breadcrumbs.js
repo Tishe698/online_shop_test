@@ -7,7 +7,7 @@ import './1.css'; // Подключаем файл стилей
 export default function ActiveLastBreadcrumb() {
     return (
             <Breadcrumbs aria-label="breadcrumb">
-                <Link className="breadcrumb-link" href="/">
+                <Link className="breadcrumb-link" href="/client/public">
                     <a className="breadcrumb-text">Каталог</a>
                 </Link>
                 <Link className="breadcrumb-link" href="/material-ui/getting-started/installation/">

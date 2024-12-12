@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel as MinimalCarousel } from 'react-carousel-minimal';
-import '../Carousel/1.css'; // Check the correct path to your CSS file
+import './1.css'; // Check the correct path to your CSS file
 
 function MyCarousel() {
     const importAll = (r) => r.keys().map(r);

@@ -100,7 +100,7 @@ const Header = ({ showPriceInCharacteristics, totalCartPrice }) => {
                 <nav>
                     {/* Навигационное меню */}
                     <ul className={'nav_link'}>
-                        <li><a href="/">Мои заказы</a></li>
+                        <li><a href="/client/public">Мои заказы</a></li>
                         <li><a href="/about">Сотрудники</a></li>
                         <li><a href="/contact">Шаблоны заказов</a></li>
                         <li><a href="/contact">Обращения</a></li>
