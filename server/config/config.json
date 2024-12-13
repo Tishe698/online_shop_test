@@ -1,0 +1,10 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "online_shop",
+    "host": "postgres",
+    "dialect": "postgres",
+    "port": 5432
+  }
+}

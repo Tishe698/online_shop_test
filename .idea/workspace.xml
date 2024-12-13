@@ -5,70 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e3a0e8-1c64-48e9-a7b4-7326ab62d4c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/online_shop_compo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/image_carousel/Sneakers1.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/image_carousel/Sneakers1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/image_carousel/Sneakers2.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/image_carousel/Sneakers2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/image_carousel/Sneakers3.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/image_carousel/Sneakers3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/Carousel/image_carousel/Sneakers4.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/Carousel/image_carousel/Sneakers4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/breadcrumbs/1.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/breadcrumbs/1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/breadcrumbs/breadcrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/breadcrumbs/breadcrumbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/counter_number/counter_imput.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/counter_number/counter_imput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/counter_number/counter_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/counter_number/counter_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companent/dashboard_login/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/companent/dashboard_login/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/content/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/gothampro/gothampro.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/fonts/gothampro/gothampro.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/footer/gray_footer_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/footer/gray_footer_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/footer/info.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/footer/info.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/footer/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/footer/pdf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/footer/video.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/footer/video.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/footer/you_tube.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/footer/you_tube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/Avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/Avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/alarm.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/alarm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/button_menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/button_menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/ic_arrow_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/ic_arrow_down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/lens_search.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/lens_search.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/manag_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/manag_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/search_cross.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/search_cross.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/header/shopbasket.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/img/header/shopbasket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/registrations/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/registrations/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/registrations/ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="server" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -88,6 +93,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2q7HJOyVIHklTji08up9WsiuPpT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,7 +105,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -105,11 +112,15 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "C:/Users/New/AppData/Roaming/JetBrains/WebStorm2024.3/node/versions/22.12.0/node",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\New\WebstormProjects\online_shop_compo\server\config" />
+      <recent name="C:\Users\New\WebstormProjects\online_shop_compo\server" />
       <recent name="C:\Users\New\WebstormProjects\online_shop_compo\client" />
     </key>
   </component>
@@ -129,6 +140,9 @@
       <option name="presentableId" value="Default" />
       <updated>1734006621158</updated>
       <workItem from="1734006623629" duration="2394000" />
+      <workItem from="1734009551031" duration="8150000" />
+      <workItem from="1734032431223" duration="430000" />
+      <workItem from="1734033623731" duration="14390000" />
     </task>
     <servers />
   </component>
