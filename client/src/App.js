@@ -18,7 +18,22 @@ const Container = () => {
 };
 
 const App = () => {
-    const isAuthenticated = !!localStorage.getItem('token'); // Проверяем авторизацию
+    const [isAuthenticated, setIsAuthenticated] = React.useState(!!localStorage.getItem('authToken'));
+
+    React.useEffect(() => {
+        const handleStorageChange = () => {
+            setIsAuthenticated(!!localStorage.getItem('authToken'));
+        };
+
+        // Прослушиваем событие добавления токена
+        window.addEventListener('storage', handleStorageChange);
+        // Дополнительно проверяем состояние после рендера
+        setIsAuthenticated(!!localStorage.getItem('authToken'));
+
+        return () => {
+            window.removeEventListener('storage', handleStorageChange);
+        };
+    }, []);
 
     return (
         <Router>
@@ -26,14 +41,12 @@ const App = () => {
                 <Route path="/register" element={<Register />} />
                 <Route path="/login" element={<Login />} />
                 <Route
-                    path="/"
-                    element={
-                        isAuthenticated ? <Container /> : <Navigate to="/login" />
-                    }
+                    path="/home"
+                    element={isAuthenticated ? <Container /> : <Navigate to="/login" />}
                 />
+                <Route path="/" element={<Navigate to="/home" />} />
             </Routes>
         </Router>
     );
 };
-
 export default App;

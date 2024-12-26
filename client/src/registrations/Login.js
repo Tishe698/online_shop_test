@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom'; // Используем Link из react-router-dom
 import {
     Avatar,
     Button,
     CssBaseline,
     TextField,
-    FormControlLabel,
-    Checkbox,
-    Link,
+    Typography,
     Grid,
     Box,
-    Typography,
     Container,
     LockOutlinedIcon,
 } from './ui';
@@ -27,6 +24,8 @@ const Login = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setError('');
+
         try {
             const response = await fetch('http://localhost:5000/auth/login', {
                 method: 'POST',
@@ -34,15 +33,14 @@ const Login = () => {
                 body: JSON.stringify(formData),
             });
 
-            if (response.ok) {
-                const data = await response.json();
-                // Сохранение токена в localStorage
-                localStorage.setItem('authToken', data.token);
+            const data = await response.json();
 
-                // Перенаправление на главную страницу
-                navigate('/');
+            if (response.ok) {
+                localStorage.setItem('authToken', data.token); // Сохранение токена
+                window.dispatchEvent(new Event('storage')); // Уведомляем об изменении
+                console.log('Токен сохранён:', data.token);
+                navigate('/home', { replace: true }); // Перенаправление на главную
             } else {
-                const data = await response.json();
                 setError(data.error || 'Ошибка входа');
             }
         } catch (error) {
@@ -118,10 +116,11 @@ const Login = () => {
                     <Button type="submit" fullWidth variant="contained" color="primary" sx={{ mt: 3, mb: 2 }}>
                         Войти
                     </Button>
-                    <Grid container>
-                        <Grid item xs>
-                        </Grid>
+                    <Grid container justifyContent="flex-end">
                         <Grid item>
+                            <Link to="/register" variant="body2">
+                                Нет аккаунта ?
+                            </Link>
                         </Grid>
                     </Grid>
                 </Box>

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {
     Avatar,
     Button,
@@ -25,28 +27,37 @@ const Register = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            console.log('Имя для сохранения:', formData.name); // Логируем значение имени
+            console.log('Имя для сохранения:', formData.name);
 
             const response = await fetch('http://localhost:5000/auth/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    username: formData.email, // Передаем email как username
+                    username: formData.email,
                     password: formData.password,
                     name: formData.name,
                 }),
             });
 
             if (response.ok) {
-                alert('Регистрация успешна!');
-                navigate('/login');
+                toast.success('Регистрация успешна!', {
+                    position: 'top-right',
+                    autoClose: 3000,
+                });
+                setTimeout(() => navigate('/login'), 3000); // Перенаправление через 3 секунды
             } else {
                 const data = await response.json();
-                alert(data.error || 'Ошибка регистрации');
+                toast.error(data.error || 'Ошибка регистрации', {
+                    position: 'top-right',
+                    autoClose: 3000,
+                });
             }
         } catch (error) {
             console.error('Ошибка:', error);
-            alert('Произошла ошибка');
+            toast.error('Произошла ошибка', {
+                position: 'top-right',
+                autoClose: 3000,
+            });
         }
     };
 
@@ -128,8 +139,11 @@ const Register = () => {
                     </Grid>
                 </Box>
             </Box>
+            {/* Контейнер для отображения уведомлений */}
+            <ToastContainer />
         </Container>
     );
 };
 
 export default Register;
+
