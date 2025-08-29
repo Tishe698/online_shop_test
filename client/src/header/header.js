@@ -29,7 +29,7 @@ const Header = ({ showPriceInCharacteristics, totalCartPrice }) => {
     useEffect(() => {
         const fetchUserName = async () => {
             try {
-                const response = await fetch('http://localhost:5000/auth/user', {
+                const response = await fetch('http://localhost:5001/auth/user', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
